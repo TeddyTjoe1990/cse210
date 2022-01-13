@@ -3,7 +3,7 @@ from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
 
 print(f"{Fore.BLUE}>Tic-Tac-Toe<")
-print(f"{Fore.BLUE} By Teddy")
+print(f"{Fore.BLUE} Author: Teddy")
 print()
 def main():
     pl = upc_pl("")
@@ -41,6 +41,7 @@ def win(board):
 def movement(pl, board):
     answer = int(input(f"{pl}'s turn to choose a square (1-9): "))
     board[answer - 1] = pl
+    print()
 
 def upc_pl(current):
     if current == "" or current == "o":
