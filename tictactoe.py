@@ -2,8 +2,8 @@ import colorama
 from colorama import Fore, Back, Style
 colorama.init(autoreset=True)
 
-print(f"{Fore.RED}>Tic-Tac-Toe<")
-print(f"{Fore.RED} By Teddy")
+print(f"{Fore.BLUE}>Tic-Tac-Toe<")
+print(f"{Fore.BLUE} By Teddy")
 print()
 def main():
     pl = upc_pl("")
