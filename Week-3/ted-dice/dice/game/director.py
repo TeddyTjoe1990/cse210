@@ -1,5 +1,4 @@
 print(">Welcome to Dice Game<")
-from ast import Return
 from die import Die
 
 class Director:
